@@ -51,7 +51,7 @@
         </div>
         <br />
 
-        <p><b>Contact</b><br />Institute of Computational Mathematics and Scientific/Engineering Computing,<br />Academy of Mathematics and Systems Science,<br />No.55, ZhongGuanCun East Road, Beijing, China, 100190</p>
+        <p><b>Contact</b><br />{{ site.contact | default: site.github.repository_url }}</p>
       </header>
       <section>
         <img src="{{site.logo | relative_url}}" width="320" height="350" alt="{{ site.title | default: site.github.repository_name }}"></h3>
