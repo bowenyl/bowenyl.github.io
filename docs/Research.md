@@ -1,3 +1,10 @@
+---
+layout: default
+title: Research
+---
+# Research page
+
+
 <h2 id="research">Publications</h2>
           <ul>
             <li>
