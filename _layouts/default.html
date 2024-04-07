@@ -32,9 +32,9 @@
         {% for item in site.others %}
           {% if page.url == item.url %}
             <h3 style="background-color:#069">
-              <a href="{{ item.url }}">{{ item.name }}</a></h3>
+              <a href="{{ item.url }}">{{ item.title }}</a></h3>
           {% else %}
-            <h3><a href="{{ item.url }}">{{ item.name }}</a></h3>
+            <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
           {% endif %}
         {% endfor %}
         
