@@ -26,9 +26,10 @@
       <header>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ page.description | default: site.description }}</p>
-        
+
+        <h3><a href="https://bowenmath.github.io/">Home</a></h3>
         <ul>
-        {% for item in site.nav %}
+        {% for item in site.docs %}
           {% if page.url == item.link %}
             <li style="background-color:#069">
               <a href="{{ item.link }}">
