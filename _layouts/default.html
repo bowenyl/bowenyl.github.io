@@ -28,19 +28,15 @@
         <p>{{ page.description | default: site.description }}</p>
 
         <h3><a href="https://bowenmath.github.io/">Home</a></h3>
-        <ul>
+        
         {% for item in site.pages %}
           {% if page.url == item.link %}
-            <li style="background-color:#069">
-              <a href="{{ item.link }}">
-                <strong>{{ item.name }}</strong>
-              </a>
-            </li>
+            <h3 style="background-color:#069">
+              <a href="{{ item.link }}">{{ item.name }}</a></h3>
           {% else %}
-            <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+            <h3><a href="{{ item.link }}">{{ item.name }}</a></h3>
           {% endif %}
         {% endfor %}
-        </ul>
         
         <b>Social</b><br />
         <div class="social-row">
