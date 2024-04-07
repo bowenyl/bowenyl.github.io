@@ -3,4 +3,5 @@ plugins:
 - jekyll-remote-theme
 
 title: Minimal theme
+logo: /assets/img/bowen.jpg
 description: PhD Student<br />Academy of Mathematics and Systems Science<br />Chinese Academy of Sciences
