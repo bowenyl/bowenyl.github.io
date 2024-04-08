@@ -2,8 +2,9 @@
 layout: default
 title: Home
 ---
-<img src="{{site.logo | relative_url}}" width="320" height="350" alt="{{ site.title | default: site.github.repository_name }}"></h3>
-        <p> <br /> </p>
+
+<img src="{{site.logo | relative_url}}" width="320" height="350" alt="{{ site.title | default: site.github.repository_name }}">
+        
         <p>I am now a PhD student at
              <a href="http://www.amss.cas.cn/">Academy of Mathematics and Systems Science</a>,
              <a href="https://english.cas.cn/">Chinese Academy of Sciences</a>. <br /> <br />
