@@ -12,13 +12,9 @@ title: Home
         
         
         ## Education
-          <ul>
-            <li>
-              <p><b>Ph.D Candidate in Applied Mathematics</b> (2021.9-now)<br />
-                Academy of Mathematics and Systems Science, Chinese Academy of Sciences</p>
-            </li>
-            <li>
-              <p><b>B.S in Mathematics and Applied Mathematics</b> (2017.9-2021.6)<br />
-                Taishan College, Shandong University</p>
-            </li>
-          </ul>
+
+              **Ph.D Candidate in Applied Mathematics** (2021.9-now)
+              Academy of Mathematics and Systems Science, Chinese Academy of Sciences
+
+              **B.S in Mathematics and Applied Mathematics** (2017.9-2021.6)
+              Taishan College, Shandong University
