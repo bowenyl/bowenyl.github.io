@@ -1,7 +1,7 @@
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
-repository: "academicpages/academicpages.github.io" and "tyleransom/tyleransom.github.io"
+reference: "academicpages/academicpages.github.io", "tyleransom/tyleransom.github.io", and "wsshin/jemdoc_mathjax"
 
 title: Bowen Li
 keywords: Bowen Li, bowen, math, Mathematics, Applied Mathematics, Computational Mathematics, Economics, Physics
