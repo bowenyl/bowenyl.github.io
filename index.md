@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: home
 title: Home
 ---
 
-<img src="{{site.logo | relative_url}}" width="320" height="350" alt="{{ site.title | default: site.github.repository_name }}">
         
         I am now a PhD student at [Academy of Mathematics and Systems Science](http://www.amss.cas.cn/), [Chinese Academy of Sciences](https://english.cas.cn/).
              
