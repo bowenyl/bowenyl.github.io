@@ -4,7 +4,7 @@ title: Research
 ---
 
 
-<h2 id="research">Publications</h2>
+## Publications
           <ul>
             <li>
               <p><strong>Bowen Li</strong>, and Bin Shi,
