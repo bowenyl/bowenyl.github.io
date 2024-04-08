@@ -11,8 +11,8 @@ My research interests lie mainly in control theory, optimization, and machine le
         
 ## Education
 
-**Ph.D Candidate in Applied Mathematics** (2021.9-now)
+**Ph.D Candidate in Applied Mathematics** (2021.9-now)  
 Academy of Mathematics and Systems Science, Chinese Academy of Sciences
 
-**B.S in Mathematics and Applied Mathematics** (2017.9-2021.6)
+**B.S in Mathematics and Applied Mathematics** (2017.9-2021.6)  
 Taishan College, Shandong University
