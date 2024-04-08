@@ -5,14 +5,13 @@ title: Home
 
 <img src="{{site.logo | relative_url}}" width="320" height="350" alt="{{ site.title | default: site.github.repository_name }}">
         
-        I am now a PhD student at
-             <a href="http://www.amss.cas.cn/">Academy of Mathematics and Systems Science</a>,
-             <a href="https://english.cas.cn/">Chinese Academy of Sciences</a>. <br /> <br />
+        I am now a PhD student at [Academy of Mathematics and Systems Science](http://www.amss.cas.cn/), [Chinese Academy of Sciences](https://english.cas.cn/).
+             
 
         My research interests lie mainly in control theory, optimization, and machine learning.
         
         
-        <h2>Education</h2>
+        ## Education
           <ul>
             <li>
               <p><b>Ph.D Candidate in Applied Mathematics</b> (2021.9-now)<br />
