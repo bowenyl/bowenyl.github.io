@@ -5,11 +5,12 @@ title: Home
 
 <img src="{{site.logo | relative_url}}" width="320" height="350" alt="{{ site.title | default: site.github.repository_name }}">
         
-        <p>I am now a PhD student at
+        I am now a PhD student at
              <a href="http://www.amss.cas.cn/">Academy of Mathematics and Systems Science</a>,
              <a href="https://english.cas.cn/">Chinese Academy of Sciences</a>. <br /> <br />
-        </p>
-        <p>My research interests lie mainly in control theory, optimization, and machine learning. <br /> <br /> </p>
+
+        My research interests lie mainly in control theory, optimization, and machine learning.
+        
         
         <h2>Education</h2>
           <ul>
