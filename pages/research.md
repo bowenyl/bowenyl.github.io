@@ -6,7 +6,7 @@ title: Research
 
 ## Publications
 
-**Bowen Li**, Bin Shi, and Ya-xiang Yuan, [Linear convergence of Nesterov-1983 with the strong convexity](https://arxiv.org/abs/2306.09694), *To appear in SIAM Journal on Optimization*, 2024+.
+**Bowen Li**, Bin Shi, and Ya-xiang Yuan, [Linear convergence of Forward-Backward Accelrated Algorithms without Knowledge of the Modulus of Strong Convexity](https://arxiv.org/abs/2306.09694), *To appear in SIAM Journal on Optimization*, 2024+.
 
 ## Preprints
 
