@@ -7,7 +7,7 @@ title: Home
 I am now a PhD student at [Academy of Mathematics and Systems Science](http://www.amss.cas.cn/), [Chinese Academy of Sciences](https://english.cas.cn/).
              
 
-My research interests lie mainly in ODE method for continuous optimization, variational data assimilation, spectral method for partial differential equations.
+My research interests lie mainly in ODE method for numerical optimization, variational data assimilation, spectral method for partial differential equations.
         
         
 ## Education
