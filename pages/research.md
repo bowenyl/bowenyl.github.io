@@ -14,7 +14,7 @@ title: Research
 
 ## Preprints
 
-- [Numerical Solution for Nonlinear 4D Variational Data Assimilation (4D-Var) via ADMM](https://arxiv.org/abs/2410.04471), *preprint*, 2024.
+- [Numerical Solution for Nonlinear 4D Variational Data Assimilation (4D-Var) via ADMM](https://arxiv.org/abs/2410.04471), *preprint*, 2024.  
 **Bowen Li** and Bin Shi
 
 - [Understanding the PDHG Algorithm via High-Resolution Differential Equations](https://arxiv.org/abs/2403.11139), *preprint*, 2024.  
