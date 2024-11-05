@@ -7,7 +7,7 @@ title: Home
 I am now a PhD student at [Academy of Mathematics and Systems Science](http://www.amss.cas.cn/), [Chinese Academy of Sciences](https://english.cas.cn/).
              
 
-My research interests lie mainly in high-resolution ODEs for optimization methods, variational data assimilation, ADMM.
+My research interests lie mainly in variational data assimilation, ADMM, high-resolution ODEs for optimization methods.
         
         
 ## Education
