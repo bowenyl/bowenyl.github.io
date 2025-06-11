@@ -2,4 +2,4 @@
 
 Repository for my personal website.
 
-https://bowenmath.github.io/
+https://bowenyl99.github.io/
