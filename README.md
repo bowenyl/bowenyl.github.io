@@ -2,4 +2,4 @@
 
 Repository for my personal website.
 
-https://bowenyl99.github.io/
+https://bowenyl.github.io/
