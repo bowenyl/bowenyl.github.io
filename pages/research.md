@@ -6,6 +6,9 @@ title: Research
 
 ## Publications
 
+- [Numerical Solution for Nonlinear 4D Variational Data Assimilation (4D-Var) via ADMM](https://arxiv.org/abs/2410.04471), [[code](https://github.com/bowenmath/4D-Var-via-ADMM)], *Journal of Computational Physics*, 2025.  
+**Bowen Li** and Bin Shi
+
 - [Linear convergence of Forward-Backward Accelrated Algorithms without Knowledge of the Modulus of Strong Convexity](https://epubs.siam.org/doi/full/10.1137/23M158111X), *SIAM Journal on Optimization*, 2024, 34(2):2150-2168.  
 **Bowen Li**, Bin Shi, and Ya-xiang Yuan
 
@@ -13,9 +16,6 @@ title: Research
 **Bowen Li**, Bin Shi, and Ya-xiang Yuan
 
 ## Preprints
-
-- [Numerical Solution for Nonlinear 4D Variational Data Assimilation (4D-Var) via ADMM](https://arxiv.org/abs/2410.04471), [[code](https://github.com/bowenmath/4D-Var-via-ADMM)], *preprint*, 2024.  
-**Bowen Li** and Bin Shi
 
 - [Understanding the PDHG Algorithm via High-Resolution Differential Equations](https://arxiv.org/abs/2403.11139), *preprint*, 2024.  
 **Bowen Li** and Bin Shi
