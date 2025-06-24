@@ -17,6 +17,9 @@ title: Research
 
 ## Preprints
 
+- [Convergent Proximal Multiblock ADMM for Nonconvex Dynamics-Constrained Optimization](https://arxiv.org/abs/2506.17405), *preprint*, 2025.  
+**Bowen Li** and Ya-xiang Yuan
+
 - [Understanding the PDHG Algorithm via High-Resolution Differential Equations](https://arxiv.org/abs/2403.11139), *preprint*, 2024.  
 **Bowen Li** and Bin Shi
 
