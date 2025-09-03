@@ -7,7 +7,7 @@ title: Home
 I am now a PhD student at [Academy of Mathematics and Systems Science](http://www.amss.cas.cn/), [Chinese Academy of Sciences](https://english.cas.cn/).
              
 
-My current research interests lie mainly in numerical optimization and stochastic control.
+My current research interests lie mainly in numerical optimization and quantum computing.
         
         
 ## Education
