@@ -1,4 +1,4 @@
-# bowenmath.github.io
+# bowenyl.github.io
 
 Repository for my personal website.
 
