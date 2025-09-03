@@ -1,1 +1,1 @@
-A [Latex template](./assets/) for applied mathematics research papers.
+A simple [Latex template](./downloads/template.zip) for applied mathematics research papers.
