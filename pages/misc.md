@@ -1,1 +1,1 @@
-[A Latex template for applied mathematics research papers](./assets/)
+A [Latex template](./assets/) for applied mathematics research papers.
