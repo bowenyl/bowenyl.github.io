@@ -18,3 +18,5 @@ nav:
   link: /
 - name: Research
   link: /pages/research.html
+  - name: Resources
+  link: /pages/resources.html
