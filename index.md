@@ -12,7 +12,7 @@ My current research interests lie mainly in numerical optimization and quantum c
         
 ## Education
 
-**Ph.D Candidate in Applied Mathematics** (2021.9-now)  
+**Ph.D Candidate in Computational Mathematics** (2021.9-now)  
 Academy of Mathematics and Systems Science, Chinese Academy of Sciences
 
 **B.S in Mathematics and Applied Mathematics** (2017.9-2021.6)  
