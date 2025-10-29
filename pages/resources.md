@@ -1,3 +1,2 @@
 A simple [Latex template](/downloads/template.zip) for applied mathematics research papers.
-
-A reference to my [CV](/downloads/CV.pdf).
+You can find my CV [here](/downloads/CV.pdf).
