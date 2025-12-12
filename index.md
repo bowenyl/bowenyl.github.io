@@ -7,7 +7,7 @@ title: Home
 I am now a PhD student at [Academy of Mathematics and Systems Science](http://www.amss.cas.cn/), [Chinese Academy of Sciences](https://english.cas.cn/).
              
 
-My current research interests lie mainly in applying machine learning techniques to scientific problems and their theoretical properties from the perspective of optimization and control.
+My current research interests lie mainly in applying machine learning techniques to scientific problems and analyzing their theoretical properties from the perspective of optimization and control.
         
         
 ## Education
