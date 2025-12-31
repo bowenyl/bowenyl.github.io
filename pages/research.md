@@ -6,7 +6,7 @@ title: Research
 
 ## Publications
 
-- [Proximal subgradient norm minimization of ISTA and FISTA](https://doi.org/10.1016/j.acha.2025.101848), [[arXiv](https://arxiv.org/abs/2211.01610)], *Applied and Computational Harmonic Analysis*, 2025.  
+- [Proximal subgradient norm minimization of ISTA and FISTA](https://doi.org/10.1016/j.acha.2025.101848), [[arXiv](https://arxiv.org/abs/2211.01610)], *Applied and Computational Harmonic Analysis*, 2026.  
 **Bowen Li**, Bin Shi, and Ya-xiang Yuan
 
 - [Numerical Solution for Nonlinear 4D Variational Data Assimilation (4D-Var) via ADMM](https://doi.org/10.1016/j.jcp.2025.114163), [[code](https://github.com/bowenyl/4D-Var-via-ADMM)], [[arXiv](https://arxiv.org/abs/2410.04471)], *Journal of Computational Physics*, 2025.  
