@@ -12,11 +12,12 @@ title: Research
 - [Numerical Solution for Nonlinear 4D Variational Data Assimilation (4D-Var) via ADMM](https://doi.org/10.1016/j.jcp.2025.114163), [[code](https://github.com/bowenyl/4D-Var-via-ADMM)], [[arXiv](https://arxiv.org/abs/2410.04471)], *Journal of Computational Physics*, 2025.  
 **Bowen Li** and Bin Shi
 
+- [Linear Convergence of ISTA and FISTA](https://doi.org/10.1007/s40305-024-00561-0), [[arXiv](https://arxiv.org/abs/2212.06319)], *Journal of the Operations Research Society of China*, 2024.  
+**Bowen Li**, Bin Shi, and Ya-xiang Yuan
+
 - [Linear convergence of Forward-Backward Accelrated Algorithms without Knowledge of the Modulus of Strong Convexity](https://doi.org/10.1137/23M158111X), [[arXiv](https://arxiv.org/abs/2306.09694)], *SIAM Journal on Optimization*, 2024.  
 **Bowen Li**, Bin Shi, and Ya-xiang Yuan
 
-- [Linear Convergence of ISTA and FISTA](https://doi.org/10.1007/s40305-024-00561-0), [[arXiv](https://arxiv.org/abs/2212.06319)], *Journal of the Operations Research Society of China*, 2024.  
-**Bowen Li**, Bin Shi, and Ya-xiang Yuan
 
 ## Preprints
 
