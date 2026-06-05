@@ -7,7 +7,7 @@ title: Home
 I am now a PhD student at [Academy of Mathematics and Systems Science](http://www.amss.cas.cn/), [Chinese Academy of Sciences](https://english.cas.cn/).
              
 
-My current research interests lie mainly in stochastic optimization and acceleration techniques for first-order methods.
+My current research interests lie mainly in stochastic optimization, composite optimization and acceleration techniques.
         
         
 ## Education
