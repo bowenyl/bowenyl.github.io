@@ -4,7 +4,7 @@ title: Home
 ---   
              
 
-My research interests primarily focus on stochastic optimization, composite optimization, acceleration techniques, and high-order methods.
+My research interests primarily focus on stochastic optimization, composite optimization, acceleration techniques, and higher-order methods.
         
         
 ## Education
