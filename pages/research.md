@@ -6,6 +6,9 @@ title: Research
 
 ## Publications
 
+- [Understanding the ADMM Algorithm via High-Resolution Differential Equations](https://doi.org/10.1007/s00245-026-10472-6), [[arXiv](https://arxiv.org/abs/2401.07096)], *Applied Mathematics & Optimization*, 2026.  
+**Bowen Li** and Bin Shi
+
 - [Proximal subgradient norm minimization of ISTA and FISTA](https://doi.org/10.1016/j.acha.2025.101848), [[arXiv](https://arxiv.org/abs/2211.01610)], *Applied and Computational Harmonic Analysis*, 2026.  
 **Bowen Li**, Bin Shi, and Ya-xiang Yuan
 
@@ -25,7 +28,4 @@ title: Research
 **Bowen Li** and Ya-xiang Yuan
 
 - [Understanding the PDHG Algorithm via High-Resolution Differential Equations](https://arxiv.org/abs/2403.11139), *preprint*, 2024.  
-**Bowen Li** and Bin Shi
-
-- [Understanding the ADMM Algorithm via High-Resolution Differential Equations](https://arxiv.org/abs/2401.07096), *preprint*, 2024.  
 **Bowen Li** and Bin Shi
