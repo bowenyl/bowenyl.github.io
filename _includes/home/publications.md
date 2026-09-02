@@ -2,6 +2,9 @@
 
 ### Journal Articles
 
+- [Convergent Proximal Multiblock ADMM for Nonconvex Dynamics-Constrained Optimization](https://doi.org/10.1080/02331934.2026.2725054)  
+  **Bowen Li** and Ya-xiang Yuan, *Optimization*, 2025. [arXiv](https://arxiv.org/abs/2506.17405)
+
 - [Understanding the ADMM Algorithm via High-Resolution Differential Equations](https://doi.org/10.1007/s00245-026-10472-6)  
   **Bowen Li** and Bin Shi, *Applied Mathematics & Optimization*, 2026. [arXiv](https://arxiv.org/abs/2401.07096)
 
@@ -18,9 +21,6 @@
   **Bowen Li**, Bin Shi, and Ya-xiang Yuan, *SIAM Journal on Optimization*, 2024. [arXiv](https://arxiv.org/abs/2306.09694)
 
 ### Preprints
-
-- [Convergent Proximal Multiblock ADMM for Nonconvex Dynamics-Constrained Optimization](https://arxiv.org/abs/2506.17405)  
-  **Bowen Li** and Ya-xiang Yuan, preprint, 2025.
 
 - [Understanding the PDHG Algorithm via High-Resolution Differential Equations](https://arxiv.org/abs/2403.11139)  
   **Bowen Li** and Bin Shi, preprint, 2024.
