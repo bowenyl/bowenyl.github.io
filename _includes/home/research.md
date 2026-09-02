@@ -8,5 +8,5 @@ Robust algorithms, nonlinear transformations of stochastic gradients, high-proba
 ### Accelerated & Proximal Optimization
 Acceleration, proximal algorithms, splitting methods, convergence analysis, and continuous-time perspectives for first-order optimization.
 
-### Quantum & Matrix Optimization
+### Scientific Computing
 Quantum algorithms for structured optimization and matrix-valued problems, with emphasis on first- and second-order methods and end-to-end complexity.
