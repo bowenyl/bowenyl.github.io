@@ -1,22 +1,12 @@
-# reference and template repository: "academicpages/academicpages.github.io", "tyleransom/tyleransom.github.io", and "wsshin/jemdoc_mathjax"
-
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme
-
 title: Bowen Li
-keywords: Bowen Li, bowen, math, Mathematics, Applied Mathematics, Computational Mathematics, Economics, Physics
-logo: /assets/img/bowen.jpg
-description: Postdoc<br />Department of Mathematics<br />Linköping University
-email: bowli55@liu.se
-scholar: https://scholar.google.com/citations?hl=en&user=_L8IhJEAAAAJ
-orcid: https://orcid.org/0009-0008-7809-7267
-contact: Department of Mathematics,<br />Linköping University,<br />Linköping, Sweden, 58183
+description: Postdoctoral Researcher in Applied Mathematics at Linköping University
+url: "https://bowenyl.github.io"
+baseurl: ""
+profile_image: /assets/img/bowen-liu.jpeg
 
-nav:
-- name: Home
-  link: /
-- name: Research
-  link: /pages/research.html
-- name: Resources
-  link: /pages/resources.html
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - README.md
