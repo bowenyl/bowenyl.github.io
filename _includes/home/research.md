@@ -1,6 +1,6 @@
 ## Research
 
-My research is centered on optimization theory and algorithms. I am particularly interested in methods that remain effective under stochastic uncertainty, nonsmooth structure, heavy-tailed noise, or large structured matrix problems.
+My research is centered on optimization theory and algorithms. I am particularly interested in accelerated and stochastic optimization, non-Euclidean optimization, and higher-order methods, with applications to scientific computing.
 
 ### Stochastic & Robust Optimization
 Robust algorithms, nonlinear transformations of stochastic gradients, high-probability guarantees, and sharp complexity bounds under heavy-tailed noise.
