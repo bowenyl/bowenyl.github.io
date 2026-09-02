@@ -23,4 +23,4 @@
 ### Preprints
 
 - [Understanding the PDHG Algorithm via High-Resolution Differential Equations](https://arxiv.org/abs/2403.11139)  
-  **Bowen Li** and Bin Shi, preprint, 2024.
+  **Bowen Li** and Bin Shi, *preprint*, 2024.
