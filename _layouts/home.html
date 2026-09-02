@@ -1,7 +1,50 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+</head>
+<body>
+  <main class="shell">
+    <section class="hero" id="profile">
+      <div class="profile-content">
+        {% capture profile_md %}{% include home/profile.md %}{% endcapture %}
+        {{ profile_md | markdownify }}
+      </div>
+      <div class="photo">
+        <img src="{{ site.profile_image | relative_url }}" alt="Portrait of {{ site.title }}">
+      </div>
+    </section>
 
-<img src="{{site.logo | relative_url}}" width="320" height="350" alt="{{ site.title | default: site.github.repository_name }}">
 
-{{ content}}
+    <section class="section research" id="research">
+      {% capture research_md %}{% include home/research.md %}{% endcapture %}
+      {{ research_md | markdownify }}
+    </section>
+
+    <section class="section publications" id="publications">
+      {% capture publications_md %}{% include home/publications.md %}{% endcapture %}
+      {{ publications_md | markdownify }}
+    </section>
+
+    <section class="section academic-background" id="academic-background">
+      {% capture education_md %}{% include home/academic-background.md %}{% endcapture %}
+      {{ education_md | markdownify }}
+    </section>
+
+    <section class="section others" id="others">
+      {% capture others_md %}{% include home/others.md %}{% endcapture %}
+      <div class="others-content">
+        {{ others_md | markdownify }}
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell">© {{ 'now' | date: '%Y' }} Bowen Li</div>
+  </footer>
+</body>
+</html>
