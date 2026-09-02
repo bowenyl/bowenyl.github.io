@@ -5,7 +5,7 @@ My research is centered on optimization theory and algorithms. I am particularly
 ### Stochastic Optimization
 Nonlinear transformations of stochastic gradients, high-probability guarantees, and sharp complexity bounds under heavy-tailed noise.
 
-### Acceleration Techniques
+### Dynamical Analysis
 Acceleration, proximal algorithms, splitting methods, convergence analysis, and continuous-time perspectives for first-order optimization.
 
 ### Scientific Computing
