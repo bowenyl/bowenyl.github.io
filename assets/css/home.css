@@ -131,16 +131,11 @@ a:hover { text-decoration: underline; }
   gap: 18px;
 }
 .publications li {
-  position: relative;
-  padding-left: 68px;
   color: #555b63;
   font-size: 14.5px;
   line-height: 1.55;
 }
 .publications li > strong:first-child {
-  position: absolute;
-  left: 0;
-  top: 1px;
   color: #858a91;
   font-size: 14px;
   font-weight: 400;
@@ -157,14 +152,11 @@ a:hover { text-decoration: underline; }
   gap: 18px;
 }
 .academic-background li {
-  position: relative;
-  padding-left: 138px;
   color: #4a5057;
 }
 .academic-background li > strong:first-child {
-  position: absolute;
-  left: 0;
-  top: 1px;
+  display: block;
+  margin-bottom: 2px;
   color: #858a91;
   font-size: 14px;
   font-weight: 400;
@@ -218,7 +210,4 @@ footer {
   .photo { order: -1; width: 178px; height: 218px; transform: none; }
   .profile-content h1 { font-size: 36px; }
   .section { padding: 32px 0 36px; }
-  .publications li { padding-left: 54px; }
-  .academic-background li { padding-left: 0; }
-  .academic-background li > strong:first-child { position: static; display: block; margin-bottom: 2px; }
 }
