@@ -1,4 +1,4 @@
-# Bowen Li homepage
+# Bowen Li's homepage
 
 This version is designed to be easy to maintain on GitHub Pages.
 
