@@ -1,6 +1,7 @@
 # Bowen Li homepage — modular Jekyll version
 
 This version is designed to be easy to maintain on GitHub Pages.
+
 https://bowenyl.github.io/
 
 ## Files you usually edit
