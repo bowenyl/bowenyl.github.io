@@ -1,4 +1,4 @@
-# Bowen Li homepage — modular Jekyll version
+# Bowen Li homepage
 
 This version is designed to be easy to maintain on GitHub Pages.
 
