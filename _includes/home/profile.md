@@ -6,7 +6,6 @@ Postdoctoral Researcher in Applied Mathematics
 Linköping University
 {: .affiliation}
 
-My research focuses on optimization theory and algorithms, including stochastic and robust optimization, accelerated methods, and emerging directions in quantum and matrix optimization.
 {: .summary}
 
 Email: [bowli55@liu.se](mailto:bowli55@liu.se)
