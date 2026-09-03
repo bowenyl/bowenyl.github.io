@@ -49,7 +49,7 @@ a:hover { text-decoration: underline; }
 .profile-content .contact { margin: 0; color: #555b63; font-size: 15.5px; }
 .profile-content .contact a { font-weight: 500; }
 
-/* CV / Scholar / ORCID: finalized button style. */
+/* Keep these button dimensions unchanged unless you intentionally redesign them. */
 .profile-buttons {
   display: flex;
   gap: 8px;
@@ -109,29 +109,10 @@ a:hover { text-decoration: underline; }
   margin: 17px 0 4px;
   font-weight: 650;
 }
-.section > p,
-.section > div > p {
+.section > p {
   max-width: 760px;
   color: #41474e;
   line-height: 1.75;
-}
-
-/* News */
-.news ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 15px;
-}
-.news li { color: #3e444b; }
-.news li strong {
-  display: inline-block;
-  width: 88px;
-  color: #858a91;
-  font-size: 14px;
-  font-weight: 400;
-  vertical-align: top;
 }
 
 /* Research */
@@ -139,97 +120,92 @@ a:hover { text-decoration: underline; }
 .research h3:first-of-type { margin-top: 0; }
 .research h3 + p { margin: 2px 0 0; color: #4a5057; }
 
-/* Publications */
+/* Publications + Academic Background */
 .publications h3 {
-  font-size: 17px;
-  margin: 0 0 13px;
+  font-size: 16px;
+  margin: 0 0 16px;
   font-weight: 650;
 }
 .publications h3:not(:first-of-type) {
-  margin-top: 30px;
-}
-.publications ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 18px;
-}
-.publications li {
-  position: relative;
-  padding-left: 68px;
-  margin: 0;
-  color: #555b63;
-  font-size: 14.5px;
-  line-height: 1.55;
-}
-/* Kramdown wraps list-item content in <p>; reset those margins. */
-.publications li p {
-  margin: 0;
-}
-.publications li > strong:first-child,
-.publications li > p > strong:first-child {
-  position: absolute;
-  left: 0;
-  top: 1px;
-  width: 52px;
-  color: #858a91;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.45;
-}
-.publications li > a:first-of-type,
-.publications li > p > a:first-of-type {
-  color: var(--link);
-  font-size: 14.5px;
-  font-weight: 600;
-  line-height: 1.45;
-}
-.publications li br + strong,
-.publications li p br + strong {
-  color: var(--text);
-  font-weight: 650;
+  margin-top: 32px;
 }
 
-/* Academic background */
+.publications ul,
 .academic-background ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  gap: 18px;
 }
+
+.publications ul { gap: 18px; }
+.academic-background ul { gap: 18px; }
+
+.publications li,
 .academic-background li {
-  position: relative;
-  padding-left: 138px;
+  position: static;
+  padding: 0;
   margin: 0;
-  color: #4a5057;
-  font-size: 14px;
-  line-height: 1.5;
+  text-align: left;
 }
-.academic-background li p {
+.publications li > p,
+.academic-background li > p {
   margin: 0;
 }
+
+/* Academic year styling. Publications keep the year in the metadata line. */
 .academic-background li > strong:first-child,
 .academic-background li > p > strong:first-child {
-  position: absolute;
-  left: 0;
-  top: 1px;
-  width: 120px;
+  position: static;
+  display: inline-block;
+  margin: 0;
   color: #858a91;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 13.5px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+/* Publication title / degree title. */
+.publications li > a:first-of-type,
+.publications li > p > a:first-of-type {
+  display: inline-block;
+  margin: 0 0 2px;
+  color: var(--link);
+  font-size: 15px;
+  font-weight: 600;
   line-height: 1.45;
 }
-.academic-background li > strong:nth-of-type(2),
-.academic-background li > p > strong:nth-of-type(2) {
+
+.academic-background li br + strong,
+.academic-background li > p > br + strong {
+  display: inline-block;
+  margin: 1px 0 1px;
   color: var(--text);
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 650;
   line-height: 1.45;
 }
 
-/* Others: deliberately quieter, like an appendix. */
+/* Metadata / institution line. */
+.publications li {
+  color: #5a6068;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.publications li br + strong,
+.publications li > p > br + strong {
+  color: var(--text);
+  font-weight: 650;
+}
+
+.academic-background li {
+  color: #5a6068;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Others: deliberately quieter than the academic sections above. */
 .others {
   border-bottom: none;
   padding-top: 28px;
@@ -272,15 +248,4 @@ footer {
   .photo { order: -1; width: 178px; height: 218px; transform: none; }
   .profile-content h1 { font-size: 36px; }
   .section { padding: 32px 0 36px; }
-  .publications li, .academic-background li { padding-left: 0; }
-  .publications li > strong:first-child,
-  .publications li > p > strong:first-child,
-  .academic-background li > strong:first-child,
-  .academic-background li > p > strong:first-child {
-    position: static;
-    display: block;
-    width: auto;
-    margin-bottom: 2px;
-  }
-  .news li strong { width: 78px; }
 }
