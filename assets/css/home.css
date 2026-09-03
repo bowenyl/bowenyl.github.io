@@ -49,7 +49,7 @@ a:hover { text-decoration: underline; }
 .profile-content .contact { margin: 0; color: #555b63; font-size: 15.5px; }
 .profile-content .contact a { font-weight: 500; }
 
-/* Keep these button dimensions unchanged unless you intentionally redesign them. */
+/* CV / Scholar / ORCID: finalized button style. */
 .profile-buttons {
   display: flex;
   gap: 8px;
@@ -109,10 +109,29 @@ a:hover { text-decoration: underline; }
   margin: 17px 0 4px;
   font-weight: 650;
 }
-.section > p {
+.section > p,
+.section > div > p {
   max-width: 760px;
   color: #41474e;
   line-height: 1.75;
+}
+
+/* News */
+.news ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 15px;
+}
+.news li { color: #3e444b; }
+.news li strong {
+  display: inline-block;
+  width: 88px;
+  color: #858a91;
+  font-size: 14px;
+  font-weight: 400;
+  vertical-align: top;
 }
 
 /* Research */
@@ -120,7 +139,7 @@ a:hover { text-decoration: underline; }
 .research h3:first-of-type { margin-top: 0; }
 .research h3 + p { margin: 2px 0 0; color: #4a5057; }
 
-/* Publications + Academic Background */
+/* Publications */
 .publications h3 {
   font-size: 16px;
   margin: 0 0 16px;
@@ -129,83 +148,81 @@ a:hover { text-decoration: underline; }
 .publications h3:not(:first-of-type) {
   margin-top: 32px;
 }
-
-.publications ul,
-.academic-background ul {
+.publications ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
+  gap: 18px;
 }
-
-.publications ul { gap: 18px; }
-.academic-background ul { gap: 18px; }
-
-.publications li,
-.academic-background li {
-  position: static;
-  padding: 0;
+.publications li {
+  position: relative;
+  padding-left: 72px;
   margin: 0;
-  text-align: left;
+  color: #5a6068;
+  font-size: 14px;
+  line-height: 1.5;
 }
-.publications li > p,
-.academic-background li > p {
-  margin: 0;
-}
-
-/* Academic year styling. Publications keep the year in the metadata line. */
-.academic-background li > strong:first-child,
-.academic-background li > p > strong:first-child {
-  position: static;
-  display: inline-block;
-  margin: 0;
-  color: #858a91;
+.publications li > strong:first-child,
+.publications li > p > strong:first-child {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 54px;
+  color: #92979e;
   font-size: 13.5px;
-  font-weight: 500;
-  line-height: 1.4;
-  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 1.45;
 }
-
-/* Publication title / degree title. */
 .publications li > a:first-of-type,
 .publications li > p > a:first-of-type {
-  display: inline-block;
-  margin: 0 0 2px;
   color: var(--link);
   font-size: 15px;
   font-weight: 600;
   line-height: 1.45;
 }
+.publications li br + strong,
+.publications li p br + strong {
+  color: var(--text);
+  font-weight: 650;
+}
 
-.academic-background li br + strong,
-.academic-background li > p > br + strong {
-  display: inline-block;
-  margin: 1px 0 1px;
+/* Academic background */
+.academic-background ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 18px;
+}
+.academic-background li {
+  position: relative;
+  padding-left: 72px;
+  margin: 0;
+  color: #5a6068;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.academic-background li > strong:first-child,
+.academic-background li > p > strong:first-child {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 62px;
+  color: #92979e;
+  font-size: 13.5px;
+  font-weight: 400;
+  line-height: 1.45;
+}
+.academic-background li > strong:nth-of-type(2),
+.academic-background li > p > strong:nth-of-type(2) {
   color: var(--text);
   font-size: 15px;
   font-weight: 650;
   line-height: 1.45;
 }
 
-/* Metadata / institution line. */
-.publications li {
-  color: #5a6068;
-  font-size: 14px;
-  line-height: 1.5;
-}
-.publications li br + strong,
-.publications li > p > br + strong {
-  color: var(--text);
-  font-weight: 650;
-}
-
-.academic-background li {
-  color: #5a6068;
-  font-size: 14px;
-  line-height: 1.5;
-}
-
-/* Others: deliberately quieter than the academic sections above. */
+/* Others: deliberately quieter, like an appendix. */
 .others {
   border-bottom: none;
   padding-top: 28px;
@@ -248,4 +265,21 @@ footer {
   .photo { order: -1; width: 178px; height: 218px; transform: none; }
   .profile-content h1 { font-size: 36px; }
   .section { padding: 32px 0 36px; }
+  .publications li, .academic-background li { padding-left: 0; }
+  .publications li > strong:first-child,
+  .publications li > p > strong:first-child,
+  .academic-background li > strong:first-child,
+  .academic-background li > p > strong:first-child {
+    position: static;
+    display: block;
+    width: auto;
+    margin-bottom: 2px;
+  }
+  .news li strong { width: 78px; }
+  .academic-background li > strong:first-child,
+  .academic-background li > p > strong:first-child {
+    position: static;
+    display: block;
+    margin-bottom: 2px;
+  }
 }
