@@ -24,20 +24,6 @@ You normally do **not** need to edit the HTML or CSS.
 - `index.md` — tells Jekyll to use the home layout
 - `_config.yml` — basic site settings
 
-## Important before uploading
-
-Copy these files into the root of the existing `bowenyl.github.io` repository and let them overwrite files with the same names.
-
-Keep your existing `downloads/` directory, especially:
-
-- `downloads/CV.pdf`
-- `downloads/template.zip`
-- `downloads/notes.zip`
-
-The homepage links point to those existing files.
-
-If you want the site to be homepage-only, you may also delete the old `pages/research.md` and `pages/resources.md` files. They are not linked by this new homepage.
-
 ## Changing section order
 
 Open `_layouts/home.html` and move the corresponding `<section>` block. The current order is:
