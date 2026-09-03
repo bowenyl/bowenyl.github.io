@@ -141,12 +141,12 @@ a:hover { text-decoration: underline; }
 
 /* Publications */
 .publications h3 {
-  font-size: 16px;
-  margin: 0 0 16px;
+  font-size: 17px;
+  margin: 0 0 13px;
   font-weight: 650;
 }
 .publications h3:not(:first-of-type) {
-  margin-top: 32px;
+  margin-top: 30px;
 }
 .publications ul {
   list-style: none;
@@ -157,27 +157,31 @@ a:hover { text-decoration: underline; }
 }
 .publications li {
   position: relative;
-  padding-left: 72px;
+  padding-left: 68px;
   margin: 0;
-  color: #5a6068;
-  font-size: 14px;
-  line-height: 1.5;
+  color: #555b63;
+  font-size: 14.5px;
+  line-height: 1.55;
+}
+/* Kramdown wraps list-item content in <p>; reset those margins. */
+.publications li p {
+  margin: 0;
 }
 .publications li > strong:first-child,
 .publications li > p > strong:first-child {
   position: absolute;
   left: 0;
   top: 1px;
-  width: 54px;
-  color: #92979e;
-  font-size: 13.5px;
+  width: 52px;
+  color: #858a91;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.45;
 }
 .publications li > a:first-of-type,
 .publications li > p > a:first-of-type {
   color: var(--link);
-  font-size: 15px;
+  font-size: 14.5px;
   font-weight: 600;
   line-height: 1.45;
 }
@@ -197,27 +201,30 @@ a:hover { text-decoration: underline; }
 }
 .academic-background li {
   position: relative;
-  padding-left: 72px;
+  padding-left: 138px;
   margin: 0;
-  color: #5a6068;
+  color: #4a5057;
   font-size: 14px;
   line-height: 1.5;
+}
+.academic-background li p {
+  margin: 0;
 }
 .academic-background li > strong:first-child,
 .academic-background li > p > strong:first-child {
   position: absolute;
   left: 0;
   top: 1px;
-  width: 62px;
-  color: #92979e;
-  font-size: 13.5px;
+  width: 120px;
+  color: #858a91;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.45;
 }
 .academic-background li > strong:nth-of-type(2),
 .academic-background li > p > strong:nth-of-type(2) {
   color: var(--text);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 650;
   line-height: 1.45;
 }
@@ -276,10 +283,4 @@ footer {
     margin-bottom: 2px;
   }
   .news li strong { width: 78px; }
-  .academic-background li > strong:first-child,
-  .academic-background li > p > strong:first-child {
-    position: static;
-    display: block;
-    margin-bottom: 2px;
-  }
 }
