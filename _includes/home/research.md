@@ -9,4 +9,4 @@ Nonlinear transformations of stochastic gradients, high-probability guarantees, 
 Proximal algorithms, splitting methods, convergence analysis, and continuous-time perspectives for first-order optimization.
 
 ### Scientific Computing
-Algorithms for structured optimization arising from scientific problems, with emphasis on first- and second-order methods and end-to-end complexity.
+Algorithms for structured optimization arising from scientific problems, with emphasis on problem-driven approaches and end-to-end complexity.
