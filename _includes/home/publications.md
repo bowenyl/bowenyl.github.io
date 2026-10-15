@@ -22,7 +22,7 @@
 
 ### Preprints
 
-- [Accelerated stochastic first-order method for convex optimization under heavy-tailed noise](https://arxiv.org/abs/2510.11676)
+- [Accelerated stochastic first-order method for convex optimization under heavy-tailed noise](https://arxiv.org/abs/2510.11676) 
   Chuan He, Bowen Li, Zhaosong Lu, *preprint*, 2026.
 
 - [Understanding the PDHG Algorithm via High-Resolution Differential Equations](https://arxiv.org/abs/2403.11139)  
