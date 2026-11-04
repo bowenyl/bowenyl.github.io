@@ -22,7 +22,7 @@
 
 ### Preprints
 
-- [A simple adaptive accelerated optimistic dual averaging method for unconstrained convex optimization in $p$-norm geometry](https://arxiv.org/abs/2611.05334)  
+- [A simple adaptive accelerated optimistic dual averaging method for unconstrained convex optimization in p-norm geometry](https://arxiv.org/abs/2611.05334)  
   Bowen Li, Danqing Zhou, Chuan He
 
 - [Accelerated stochastic first-order method for convex optimization under heavy-tailed noise](https://arxiv.org/abs/2510.11676)  
