@@ -1,15 +1,24 @@
+
 ## Research
 
-My research focuses on optimization theory and algorithms, with particular interests in stochastic optimization, adaptive and accelerated methods, and applications to scientific computing.
+My research focuses on optimization theory and algorithms, with particular interests in stochastic optimization, adaptive and accelerated methods, and the interplay between problem structure and algorithmic complexity.
 
-### Stochastic Optimization
+### Current Research
 
-Stochastic first-order methods, heavy-tailed noise, nonlinear gradient transformations, and preconditioning techniques, with an emphasis on convergence analysis and complexity guarantees.
+**Stochastic Optimization and Preconditioning**
 
-### Adaptive and Accelerated Optimization
+Stochastic first-order methods, heavy-tailed noise, nonlinear gradient transformations, and preconditioning.
 
-Accelerated first-order methods, non-Euclidean optimization, and adaptive algorithms that exploit problem geometry and local regularity to improve convergence rates.
+**Adaptive Optimization and Function Classes**
 
-### Optimization for Scientific Computing
+Adaptive and accelerated first-order methods, non-Euclidean optimization, and convergence theory under various smoothness, growth, and error-bound conditions.
 
-Structure-exploiting optimization algorithms for scientific computing, with an emphasis on problem-driven algorithm design and computational efficiency.
+### Emerging Research Interests
+
+**Scientific Computing and Optimization**
+
+Optimization methods for scientific computing, with particular interests in quantum computing, computational materials science, and structure-exploiting algorithm design.
+
+**Neural Networks and Optimization**
+
+Mathematical foundations of neural-network architectures, graph-based computational models, expressivity, and computational complexity.
