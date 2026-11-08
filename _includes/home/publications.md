@@ -1,6 +1,20 @@
 ## Publications
 
-### Journal Articles
+### Preprints
+
+- [A simple adaptive accelerated optimistic dual averaging method for unconstrained convex optimization in p-norm geometry](https://arxiv.org/abs/2611.05334)  
+  Bowen Li, Danqing Zhou, Chuan He
+
+- [Near-Optimal Quantum Algorithm and Complexity Analysis for Riccati Problems](https://arxiv.org/abs/2609.37207)  
+  Jingyao Wang, Yanqiao Wang, Bowen Li, Jin-Peng Liu, Zhengfeng Ji, *preprint*, 2026.
+
+- [Accelerated stochastic first-order method for convex optimization under heavy-tailed noise](https://arxiv.org/abs/2510.11676)  
+  Chuan He, Bowen Li, Zhaosong Lu, *preprint*, 2026.
+
+- [Understanding the PDHG Algorithm via High-Resolution Differential Equations](https://arxiv.org/abs/2403.11139)  
+  Bowen Li and Bin Shi, *preprint*, 2024.
+
+### Published Papers
 
 - [Convergent Proximal Multiblock ADMM for Nonconvex Dynamics-Constrained Optimization](https://doi.org/10.1080/02331934.2026.2725054)  
   Bowen Li and Ya-xiang Yuan, *Optimization*, 2026. [arXiv](https://arxiv.org/abs/2506.17405)
@@ -19,17 +33,3 @@
 
 - [Linear Convergence of Forward-Backward Accelerated Algorithms without Knowledge of the Modulus of Strong Convexity](https://doi.org/10.1137/23M158111X)  
   Bowen Li, Bin Shi, Ya-xiang Yuan, *SIAM Journal on Optimization*, 2024. [arXiv](https://arxiv.org/abs/2306.09694)
-
-### Preprints
-
-- [A simple adaptive accelerated optimistic dual averaging method for unconstrained convex optimization in p-norm geometry](https://arxiv.org/abs/2611.05334)  
-  Bowen Li, Danqing Zhou, Chuan He
-
-- [Near-Optimal Quantum Algorithm and Complexity Analysis for Riccati Problems](https://arxiv.org/abs/2609.37207)  
-  Jingyao Wang, Yanqiao Wang, Bowen Li, Jin-Peng Liu, Zhengfeng Ji, *preprint*, 2026.
-
-- [Accelerated stochastic first-order method for convex optimization under heavy-tailed noise](https://arxiv.org/abs/2510.11676)  
-  Chuan He, Bowen Li, Zhaosong Lu, *preprint*, 2026.
-
-- [Understanding the PDHG Algorithm via High-Resolution Differential Equations](https://arxiv.org/abs/2403.11139)  
-  Bowen Li and Bin Shi, *preprint*, 2024.
