@@ -3,7 +3,7 @@
 ### Preprints
 
 - [A simple adaptive accelerated optimistic dual averaging method for unconstrained convex optimization in p-norm geometry](https://arxiv.org/abs/2611.05334)  
-  Bowen Li, Danqing Zhou, Chuan He
+  Bowen Li, Danqing Zhou, Chuan He, *preprint*, 2026.
 
 - [Near-Optimal Quantum Algorithm and Complexity Analysis for Riccati Problems](https://arxiv.org/abs/2609.37207)  
   Jingyao Wang, Yanqiao Wang, Bowen Li, Jin-Peng Liu, Zhengfeng Ji, *preprint*, 2026.
